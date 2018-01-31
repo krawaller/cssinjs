@@ -1,0 +1,23 @@
+@accentuationcolor: springgreen;
+@softcolor: moccasin;
+@hardcolor: magenta;
+
+.typography-h2(){
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+.asideless {
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid @accentuationcolor;
+  background-color: @softcolor;
+  color: @hardcolor;
+  > h2 {
+    font-weight: normal;
+    letter-spacing: 5px;
+    padding-left: 15px;
+    font-style: italic;
+    .typography-h2()
+  }
+}

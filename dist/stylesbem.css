@@ -1,0 +1,18 @@
+
+.asidebem {
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid springgreen;
+  background-color: moccasin;
+  color: magenta;
+}
+
+.asidebem__headline {
+  font-weight: normal;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  font-style: italic;
+  /* these used to be in global h2 selector, but that's anti-BEM */
+  font-family: Verdana;
+  font-size: 14px;
+}

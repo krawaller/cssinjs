@@ -1,0 +1,15 @@
+.asideless {
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid springgreen;
+  background-color: moccasin;
+  color: magenta;
+}
+.asideless > h2 {
+  font-weight: normal;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: Verdana;
+  font-size: 14px;
+}
